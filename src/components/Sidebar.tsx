@@ -34,7 +34,6 @@ export const Sidebar = () => {
             <div onClick={() => isMobile() && setOpen(false)}>
               <Badge href="/resume" text="Read Resume" />
             </div>
-            
           </motion.div>
         )}
       </AnimatePresence>
@@ -84,6 +83,7 @@ export const Navigation = ({
       </Heading>
       {socials.map((link: Navlink) => (
         <Link
+          target="_blank"
           key={link.href}
           href={link.href}
           className={twMerge(

@@ -16,17 +16,17 @@ export default function Home() {
         <Highlight>building products</Highlight> and web apps that can impact
         millions of lives
       </Paragraph>
-      <Paragraph className="max-w-xl mt-4">
-        <a
-          href="/Seneth Mendis CV.pdf"
-          download="Seneth Mendis CV"
-          className=" flex items-center gap-3"
-        >
-          <Download size={20} />
-          Dowload CV
-        </a>
-      </Paragraph>
+
       <WorkHistory />
+
+      <a
+        href="/Seneth Mendis CV.pdf"
+        download="Seneth Mendis CV"
+        className=" flex items-center gap-3 bg-neutral-100 hover:bg-neutral-200 w-40 py-3 px-3 rounded-lg"
+      >
+        <Download size={20} />
+        Dowload CV
+      </a>
     </Container>
   );
 }
