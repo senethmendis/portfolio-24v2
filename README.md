@@ -1,5 +1,5 @@
 # My Portfolio 2024 v2
-![dp](https://github.com/senethmendis/fake-apple-website/blob/main/public/Screenshot%202024-07-28%20144130%20(1).png)
+![dp](https://github.com/senethmendis/portfolio-24v2/blob/main/public/Screenshot%202024-09-11%20160250.png)
 
 ### Built With
 
